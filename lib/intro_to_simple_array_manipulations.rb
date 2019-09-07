@@ -57,12 +57,16 @@ def using_concat(array1, array2)
   #/////////////////////////////////////////////////////////////////////////////////////
   
   
-def using_insert(array, element = 0)
+def using_insert(array, element)
   array.insert(element)
 end
-meat =["chic", "beef", " steak", " seafood"]
-new_E = 2
+
+meat =["chic", "beef", " steak", " seafood", "four", " five", "six", "seven", "eight"]
+new_E = "ime the new element"
+
 using_insert(meat, new_E)
+
+
 #/////////////////////////////////////////////////////////////////////////////////////
 def using_uniq(array)
   array.uniq
