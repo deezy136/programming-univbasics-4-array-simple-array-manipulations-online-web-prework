@@ -85,7 +85,7 @@ end
 
 
 #///////////////////////////////////////////////////////////////////////////////
-music = ["rap", "jazz", "soul", "rocknRoll", "blues"]
+music = ["rap", "jazz", "soul", "rocknRoll", "Robocop"]
 
 
 def using_delete_at(array, indexToDelete = 0)
@@ -93,4 +93,6 @@ def using_delete_at(array, indexToDelete = 0)
 end
   
 
-  var_created = using_delete_at(music, 4)
+ deleted_music = using_delete_at(music, 4)
+ 
+ put
