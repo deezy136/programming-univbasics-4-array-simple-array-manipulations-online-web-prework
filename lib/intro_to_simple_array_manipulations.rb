@@ -79,8 +79,8 @@ end
 
 
 #///////////////////////////////////////////////////////////////////////////////
-def using_delete_at(array, index_number)
-  array.delete(index_number)
+def using_delete_at(array, Integer)
+  array.delete(Integer)
 end
   
   
