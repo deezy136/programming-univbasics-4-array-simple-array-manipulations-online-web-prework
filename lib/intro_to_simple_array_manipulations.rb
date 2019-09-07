@@ -80,9 +80,11 @@ end
 
 #///////////////////////////////////////////////////////////////////////////////
 music = ["rap", "jazz", "soul", "rocknRoll", "blues"]
+
+index_value_to_delete = 0
 def using_delete_at(array, indexToDelete)
   array.delete(indexToDelete)
 end
   
-  using_delete_at(music, 3)
+  using_delete_at(music, index_value_to_delete)
   
