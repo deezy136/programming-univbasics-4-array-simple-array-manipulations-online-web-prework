@@ -90,7 +90,7 @@ music = ["rap", "jazz", "soul", "rocknRoll", "Robocop"]
 
 def using_delete_at(array, indexToDelete = 0)
   array.delete(indexToDelete)
-  return indexToDelete
+  return deleted_robot
 end
   
 
