@@ -61,7 +61,7 @@ def using_insert(array, element)
   array.insert(element)
 end
 meat =["chic", "beef", " steak", " seafood"]
-new_E = 9
+new_E = 2
 using_insert(meat, new_E)
 #/////////////////////////////////////////////////////////////////////////////////////
 def using_uniq(array)
