@@ -93,6 +93,6 @@ def using_delete_at(array, indexToDelete = 0)
 end
   
 
- deleted_music = using_delete_at(music, 4)
+ deleted_robot = using_delete_at(music, 4)
  
  
