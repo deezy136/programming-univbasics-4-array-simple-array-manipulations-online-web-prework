@@ -62,7 +62,7 @@ def using_insert(array, element = 0)
 end
 
 meat =["chic", "beef", " steak", " seafood", "four", " five", "six", "seven", "eight"]
-new_E = "ime the new element"
+new_E = 0
 
 using_insert(meat, new_E)
 
