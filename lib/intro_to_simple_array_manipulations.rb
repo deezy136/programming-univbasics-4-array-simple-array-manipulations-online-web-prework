@@ -64,7 +64,7 @@ end
 meat =["chic", "beef", " steak", " seafood", "four", " five", "six", "seven", "eight"]
 new_E = 0
 
-using_insert(meat[4], new_E)
+using_insert(meat, new_E)
 
 
 #/////////////////////////////////////////////////////////////////////////////////////
