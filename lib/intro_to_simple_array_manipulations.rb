@@ -57,7 +57,7 @@ def using_concat(array1, array2)
   #/////////////////////////////////////////////////////////////////////////////////////
   
   
-def using_insert(array, element)
+def using_insert(array, element = 0)
   array.insert(element)
 end
 meat =["chic", "beef", " steak", " seafood"]
